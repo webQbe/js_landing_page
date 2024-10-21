@@ -13,3 +13,13 @@ html, body {
     overflow: hidden;
 
 }
+
+.landing{
+
+    position: relative; /* .landing-inner is absolute */
+    background-image: url(../img/showcase.jpg);   
+    background-size: cover;  /* cover everything */
+    background-position: center;
+    height: 100vh; /* Take entire browser height */
+
+}
