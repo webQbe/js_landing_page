@@ -89,6 +89,8 @@ html, body {
 
 
 /* Fit to Screen (Make Responsive) */
+
+/* For screens width lower than 650px */
 @media(max-width: 650px){
 
     .landing img{
@@ -128,5 +130,15 @@ html, body {
 }
 
 
+/* For screens height lower than 600px */
+@media(max-height: 600px){
+
+    img {
+
+            width: 20%; /* Reduce logo size  */
+            
+        }
+
+}
 
 
