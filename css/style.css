@@ -1,0 +1,15 @@
+*{
+
+    box-sizing: border-box; /* padding & borders go inside box */
+
+}
+
+html, body {
+
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+    background: #333;
+    overflow: hidden;
+
+}
