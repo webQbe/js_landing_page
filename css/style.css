@@ -110,6 +110,19 @@ html, body {
 
     }
 
+    .countdown div{
+
+        display: none; /* Hide all countdown divs on smaller screens */
+
+    }
+
+    /* Only display Days div (first div) */
+    .countdown div:first-child{
+
+          display: block;  
+
+    }
+
 }
 
 
