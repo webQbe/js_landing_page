@@ -139,6 +139,12 @@ html, body {
             
         }
 
+    p {
+
+        display: none; /* Hide paragraph text */
+
+    }
+
 }
 
 
