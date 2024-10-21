@@ -36,4 +36,16 @@ const update = setInterval(() => {
         <div>${seconds}<span>Seconds</span></div>
     `;
 
+    // If launched date is passed
+    if(waitTime < 0){
+
+        // Stop countdown
+        clearInterval(update);
+
+        // Style & output text
+        countdown.style.color = '#17a2b8';
+        countdown.innerHTML = 'Launched!';
+
+    }
+
 }, 1000); // Run Every 1 sec
