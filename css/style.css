@@ -97,6 +97,21 @@ html, body {
 
     }
 
+    .landing h1{
+
+        font-size: 40px; /* Reduce font-size */
+
+    }
+
+    .countdown {
+
+        font-size: 30px; /* Increase font-size */
+
+
+    }
+
 }
+
+
 
 
