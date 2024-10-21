@@ -91,8 +91,10 @@ html, body {
 /* Fit to Screen (Make Responsive) */
 @media(max-width: 650px){
 
-    body {
-        display: none;
+    .landing img{
+
+        width: 70%; /* Reduce logo width on small screens */
+
     }
 
 }
