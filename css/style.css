@@ -60,7 +60,7 @@ html, body {
     text-align: center;
 }
 
-/* Style divs for Days, Hours, Minutes & Seconds */
+/* Style divs of Days, Hours, Minutes & Seconds */
 .countdown div{
 
     padding: 20px; /* adds space betweeb divs */
@@ -69,5 +69,13 @@ html, body {
     margin: 5px;
     opacity: 0.7;
     background: #000;
+
+}
+
+/* Style Time Labels */
+.countdown span{
+
+    display: block; /* Move label to next line */
+    font-size: 25px;
 
 }
