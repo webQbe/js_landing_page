@@ -49,3 +49,12 @@ html, body {
     font-size: 20px;
 
 }
+
+.countdown{
+
+    font-size: 50px;
+    display: flex; /* Align horizontally */
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+}
