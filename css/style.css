@@ -148,3 +148,14 @@ html, body {
 }
 
 
+/* For screens height lower than 400px */
+@media(max-height: 400px){
+
+    h1{
+
+        display: none; /* Hide heading text */
+
+    }
+
+}
+
