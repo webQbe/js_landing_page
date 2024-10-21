@@ -15,4 +15,25 @@ const update = setInterval(() => {
     const waitTime = launchDate - now;
     console.log(waitTime);
 
+    // Convert waitTime milliseconds to days
+    // Using Math.floor() to round down
+    const days = Math.floor(waitTime / (1000 * 60 * 60 * 24));
+
+    // Convert remaining (waitTime - days) milliseconds to hours
+    const hours = Math.floor((waitTime % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+
+    // Convert remaining (waitTime - hours) milliseconds to minutes
+    const minutes = Math.floor((waitTime % (1000 * 60 * 60)) / (1000 * 60));
+
+    // Convert remaining (waitTime - minutes) milliseconds to seconds
+    const seconds = Math.floor((waitTime % (1000 * 60)) / 1000);
+
+    // Display result
+    countdown.innerHTML = `
+        <div>${days}<span>Days</span></div>
+        <div>${hours}<span>Hours</span></div>
+        <div>${minutes}<span>Minutes</span></div>
+        <div>${seconds}<span>Seconds</span></div>
+    `;
+
 }, 1000); // Run Every 1 sec
