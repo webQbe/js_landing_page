@@ -87,3 +87,14 @@ html, body {
 
 }
 
+
+/* Fit to Screen (Make Responsive) */
+@media(max-width: 650px){
+
+    body {
+        display: none;
+    }
+
+}
+
+
