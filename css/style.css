@@ -106,7 +106,7 @@ html, body {
     .countdown {
 
         font-size: 30px; /* Increase font-size */
-
+        flex-direction: column; /* Align countdown divs vertically */
 
     }
 
